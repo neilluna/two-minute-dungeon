@@ -1,0 +1,4 @@
+.vscode/
+__pycache__/
+two-minute-dungeon-venv/
+*.py[cod]
