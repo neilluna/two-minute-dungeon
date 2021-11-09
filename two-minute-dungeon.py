@@ -7,9 +7,12 @@ from base_classes.scenario import Command, Scenario
 from settings import scenario_list
 
 
+SCRIPT_VERSION = '1.0.0'
+
+
 def main() -> None:
     ''' Main game program. '''
-    print('Welcome to two-minute dungeon.')
+    print(f'Welcome to two-minute dungeon - Version {SCRIPT_VERSION}')
 
     scenario: Scenario = choice(scenario_list)()
     scenario.description()
