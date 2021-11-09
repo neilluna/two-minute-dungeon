@@ -1,4 +1,4 @@
 # two-minute-dungeon
-Version 0.0.0
+Version 1.0.0
 
 Quick solo dungeon crawl game.
